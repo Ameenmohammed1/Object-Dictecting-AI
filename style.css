@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  
+}
+.container{
+    display: flex;
+    
+}
+
+.main{
+    background:url(./vecteezy_abstract-blue-background-simple-design-for-your-website_6852804.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.heading{
+    position: absolute;
+    width: 60%;
+    display: flex;
+    height: 80px;
+    background: rgb(101,94,217);
+background: linear-gradient(90deg, rgba(101,94,217,0.9655172413793104) 0%, rgba(72,80,212,1) 33%, rgba(18,179,244,0.9762931034482759) 83%, rgba(0,212,255,1) 100%);
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    left: 20%;
+    top: 10px;
+    border-radius: 100px;
+}
+
+.heading h1{
+    color: rgb(255, 255, 255);
+}
+.div1{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#chooseImage{
+    margin-top: 30px;
+}
+
+#uploadButton{
+    padding: 10pd;
+}
+
+.div2{
+    width: 50%;
+    height: 100vh;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#result{
+    margin-bottom: 30px;
+}
+
+
+
+
+#chooseImage{
+    
+    width: 300px;
+    height: 300px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    
+box-shadow: 13px 17px 79px 22px rgb(11, 77, 119);
+background-position: center;
+    background-size: cover;
+}
+
+input{
+    display: none;
+  }
+
+  label{
+    cursor: pointer;
+    padding: 10px;
+    background: -webkit-linear-gradient(rgb(228, 112, 112), rgb(228, 35, 35));
+    border-radius: 20px;
+}
+
+h1{
+    color: white;
+}
+
+
